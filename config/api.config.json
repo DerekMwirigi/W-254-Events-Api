@@ -32,16 +32,12 @@
                 "method":"POST"
             }
         },
-        "oauth":{
-            "signin":{
+        "account":{
+            "updatefirebasetoken":{
                 "state":1,
-                "url":"api/oauth/signin.php",
-                "method":"POST"
-            },
-            "signup":{
-                "state":1,
-                "url":"api/oauth/signup.php",
-                "method":"POST"
+                "url":"api/account/updatefirebasetoken.php",
+                "method":"POST",
+                "oauthToken":1
             }
         },
         "event":{
