@@ -1,0 +1,20 @@
+{
+    "accounts":{
+        "setup":{
+            "text":"Welcome to {companyName}, your code is {code}. From {companyName}"
+        }
+    },
+    "otp":{
+        "request":{
+            "text":"{code}."
+        }
+    },
+    "ticket":{
+        "payment-success":{
+            "text":"Hi, {names}, Ticket payment success. From {companyName}"
+        },
+        "payment-failuer":{
+            "text":"Hi, {names}, Ticket payment failed. From {companyName}"
+        }
+    }
+}

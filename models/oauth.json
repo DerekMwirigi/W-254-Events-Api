@@ -1,0 +1,12 @@
+{
+    "validSignIn":{
+        "email":"String||",
+        "password":"String|6|"
+    },
+    "validSignUp":{
+        "firstName":"String|9|12",
+        "email":"String||",
+        "mobile":"Int|12|12",
+        "password":"String|6|"
+    }
+}
