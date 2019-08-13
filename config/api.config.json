@@ -21,6 +21,11 @@
             }
         },
         "auth":{
+            "signup":{
+                "state":1,
+                "url":"api/auth/signup.php",
+                "method":"POST"
+            },
             "verifyuid":{
                 "state":1,
                 "url":"api/auth/verifyuid.php",
@@ -50,7 +55,7 @@
             "view":{
                 "state":1,
                 "url":"api/event/view.php",
-                "method":"POST",
+                "method":"GET",
                 "oauthToken":0
             },
             "fetch":{
@@ -67,6 +72,12 @@
             }
         },
         "ticket":{
+            "init-payment":{
+                "state":1,
+                "url":"api/ticket/init-payment.php",
+                "method":"POST",
+                "oauthToken":1
+            },
             "create":{
                 "state":1,
                 "url":"api/ticket/create.php",

@@ -1,4 +1,53 @@
 {
+    "getItem":{
+        "entityType":3,
+        "columns":{
+            "id":"",
+            "code":"",
+            "label":"",
+            "description":"",
+            "eventDate":"",
+            "ticketTypeModels":"",
+            "locationId":"",
+            "image":"",
+            "plannerId":"",
+            "noTickets":"",
+            "soldTickets":"",
+            "createdById":"",
+            "createdOn":"",
+            "statusCode":"",
+            "statusName":""
+        },
+        "keyModel":null,
+        "joinModel":{
+            "entities":[
+                {
+                    "entityTypeName":"location",
+                    "entityType":5,
+                    "type":"inner",
+                    "joinfield":"id",
+                    "parentField":"locationId",
+                    "columns":{
+                        "name":"locationName",
+                        "lat":"locationlat",
+                        "lng":"locationlng"
+                    }
+                },
+                {
+                    "entityTypeName":"planner",
+                    "entityType":6,
+                    "type":"inner",
+                    "joinfield":"id",
+                    "parentField":"plannerId",
+                    "columns":{
+                        "name":"plannerName",
+                        "email":"plannerEmail",
+                        "mobile":"plannerMobile"
+                    }
+                }
+            ]
+        }
+    },
     "getList":{
         "entityType":3,
         "columns":{
@@ -7,7 +56,7 @@
             "label":"",
             "description":"",
             "eventDate":"",
-            "ticketPrice":"",
+            "ticketTypeModels":"",
             "locationId":"",
             "image":"",
             "plannerId":"",

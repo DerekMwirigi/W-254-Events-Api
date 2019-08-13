@@ -1,0 +1,15 @@
+{
+    "tickets":{
+        "eventId":1,
+        "ticketTypeModels":[
+            {
+                "id":1,
+                "price":10.0,
+                "count":2
+            }
+        ]
+    },
+    "billingTypeId":1,
+    "mpesaPhone":254706828557,
+    "amount":2000
+}
